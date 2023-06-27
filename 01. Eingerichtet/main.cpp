@@ -5,6 +5,7 @@ using namespace sf; // statt std, hat zur Folge, dass bei String etc. std:: vor 
 int main()
 {
     // Windows-Fenster einrichten
+
     RenderWindow window(VideoMode(800, 600), "Formen >> Kreis & Rechteck");
     
     // Form: Kreis
